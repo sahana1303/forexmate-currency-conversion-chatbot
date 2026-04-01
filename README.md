@@ -1,157 +1,81 @@
-# ForexMate — AI Currency Converter Chatbot
+💱 AI Currency Converter Chatbot
 
-ForexMate is a multi-platform currency conversion chatbot built using Flask, Dialogflow, and real-time exchange rate APIs. It supports natural language queries and works across a web interface, Dialogflow, and Telegram.
-
----
-
-## Live Demo
-
-Web Application:
-https://forexmate-currency-chatbot.onrender.com/
-
-Telegram Bot:
-https://t.me/ForexMate_bot
+An intelligent chatbot that provides real-time currency conversion using natural language queries. This project integrates APIs with NLP to deliver fast and accurate exchange rate responses.
 
 ---
 
-## Features
+🚀 Features
 
-* Natural language currency conversion
-  Examples:
-
-  * 100 USD to INR
-  * convert 50 euros to rupees
-
-* Real-time exchange rates using API integration
-
-* Works across multiple platforms:
-
-  * Web UI
-  * Dialogflow
-  * Telegram
-
-* Chat-style interface
-
-* Handles currency synonyms (usd, dollar, rupees, etc.)
-
-* Supports basic conversational inputs such as greetings and help queries
+- 🌍 Real-time currency conversion
+- 💬 Natural language query support (e.g., "Convert 100 USD to INR")
+- 🤖 Dialogflow-based chatbot integration
+- 📊 Fast API response handling
+- 🌐 Web interface support
+- 📱 Telegram chatbot support
 
 ---
 
-## Tech Stack
+🛠️ Tech Stack
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: Flask (Python)
-* NLP: Dialogflow
-* API: ExchangeRate API
-* Deployment: Render
-* Integration: Telegram Bot
-
----
-
-## Architecture
-
-User (Web / Telegram / Dialogflow)
-→ Flask Backend (Render)
-→ Exchange Rate API
-→ Response returned to user
+- Python
+- Flask
+- Dialogflow (NLP)
+- REST APIs (Exchange Rates)
+- HTML / CSS
 
 ---
 
-## Setup (Local)
+📂 Project Structure
 
-```bash
-git clone https://github.com/Sai-Eshwari/forexmate-currency-chatbot.git
-cd forexmate-currency-chatbot
-
-pip install -r requirements.txt
-python app.py
-```
-
-Open in browser:
-http://127.0.0.1:5000
+app.py → Main backend logic
+requirements.txt → Dependencies
+templates → HTML files
+screenshots → UI images
 
 ---
 
-## Configuration
+⚙️ How It Works
 
-Update your API key inside app.py:
-
-```python
-API_KEY = "YOUR_API_KEY"
-```
-
----
-
-## Dialogflow Setup
-
-* Create an intent for currency conversion
-
-* Add parameters:
-
-  * unit-currency
-  * currency-name
-  * number
-
-*  Add intents and set pparameters to them.
-*  Add entities to the intents trained. 
-
-* Enable webhook
-
-* Set webhook URL to:
-
-https://forexmate-currency-chatbot.onrender.com/webhook
+1. User enters a currency query
+2. Dialogflow processes the intent
+3. Flask backend handles API request
+4. Real-time exchange rate is fetched
+5. Response is displayed to user
 
 ---
 
-## Deployment
+📸 Screenshots
 
-The application is deployed on Render using GitHub integration.
-It uses gunicorn as the production server.
-
----
-
-## Project Highlights
-
-* Built a complete chatbot system integrating NLP, backend, API, and UI
-* Implemented robust currency normalization for handling multiple input formats
-* Designed a unified backend supporting Web UI, Dialogflow, and Telegram
-* Solved real-world issues such as parameter extraction and request handling
+![Chat UI](chat-ui.png)
+![Conversion](conversion.png)
+![Dialogflow](Dialogflow.png)
+![Telegram](Telegram.png)
 
 ---
 
-## Screenshots
+🔥 Key Highlights
 
-### Chat Interface
-![Chat UI](screenshots/chat-ui.png)
-
-### Real-time Currency Conversion
-![Conversion](screenshots/conversion.png)
-
-### Dialogflow NLP Integration
-![Dialogflow](screenshots/Dialogflow.png)
-
-### Telegram Bot Integration
-![Telegram](screenshots/Telegram.png)
+- Built a real-time chatbot using NLP techniques
+- Integrated third-party APIs for live data
+- Designed scalable backend using Flask
+- Supports multi-platform usage (Web + Telegram)
 
 ---
 
-## Author
+🎯 Future Improvements
 
-Sai Eshwari
-BTech CSE (AI/ML)
-
----
-
-## Future Improvements
-
-* Voice input support
-* Currency trend visualization
-* Multi-language support
-* Enhanced conversational capabilities
+- Add voice-based interaction 🎤
+- Deploy using cloud (Render / AWS) ☁️
+- Add currency trend graphs 📈
+- Improve UI/UX
 
 ---
 
-## License
+👩‍💻 Author
 
-This project is for educational and demonstration purposes.
+Sahana
+Aspiring Software Developer 🚀
+
+---
+
+⭐ If you like this project, give it a star!
