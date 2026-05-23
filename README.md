@@ -2,6 +2,11 @@
 
 An intelligent chatbot that provides real-time currency conversion using natural language queries. This project integrates APIs with NLP to deliver fast and accurate exchange rate responses.
 
+Live Demo
+
+Web Application: https://forexmate-currency-chatbot.onrender.com/
+Telegram Bot: https://t.me/ForexMate_bot
+
 ---
 
 🚀 Features
@@ -65,7 +70,7 @@ screenshots → UI images
 🎯 Future Improvements
 
 - Add voice-based interaction 🎤
-- Deploy using cloud (Render / AWS) ☁️
+
 - Add currency trend graphs 📈
 - Improve UI/UX
 
@@ -73,8 +78,8 @@ screenshots → UI images
 
 👩‍💻 Author
 
-Sahana
-Aspiring Software Developer 🚀
+Sahana (CSE-AIML)
+  
 
 ---
 
